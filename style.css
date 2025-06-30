@@ -81,7 +81,8 @@ main hr {
 }
 
 .left .header-mail,
-.left .header-twitter {
+.left .header-twitter,
+.left .header-github {
     font-family: "Poppins", sans-serif;
     font-size: clamp(0.6rem, 2vw, 0.7rem);
     font-weight: normal;
@@ -89,7 +90,8 @@ main hr {
 }
 
 .left .header-mail:hover,
-.left .header-twitter:hover {
+.left .header-twitter:hover,
+.left .header-github:hover {
     font-size: clamp(0.7rem, 2.2vw, 0.8rem);
     font-weight: bold;
     text-decoration: underline;
@@ -108,6 +110,12 @@ main hr {
     vertical-align: middle;
     margin-right: 5px;
 }
+.github-icon {
+    width: clamp(20px, 5vw, 25px);
+    height: clamp(20px, 5vw, 25px);
+    vertical-align: middle;
+    margin-right: 5px;
+}
 .right {
     padding-left: clamp(0px, 20vw, 300px);
 }
@@ -116,7 +124,7 @@ main hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: clamp(40px, 15vh, 98px) 0;
+    margin: clamp(40px, 15vh, 60px) 0;
     min-height: 60vh;
     padding: 0 clamp(10px, 5vw, 40px);
     max-width: 1200px;
@@ -255,9 +263,19 @@ main hr {
 }
 
 .projects h2 {
-    font-size: clamp(0.9rem, 2.5vw, 1rem);
+    font-size: clamp(1.1rem, 2.8vw, 1.5rem);
     color: rgb(165, 156, 243);
     margin-bottom: 10px;
+}
+.projects h3 {
+    font-size: clamp(0.9rem, 2.5vw, 0.5rem);
+    color: rgb(126 123 155);
+    margin-bottom: 10px;
+}
+.projects h3:hover {
+    font-size: clamp(1rem, 2.7vw, 0.7rem);
+    color: rgb(165, 156, 243);
+    text-decoration: underline; 
 }
 
 .fourth-section {

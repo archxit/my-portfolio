@@ -17,6 +17,15 @@ document.querySelector(".header-twitter").addEventListener("click", () => {
 document.querySelector(".header-mail").addEventListener("click", () => {
   window.open("mailto:architsrivastava1107@gmail.com", "_blank");
 });
+document.querySelector(".p1-link").addEventListener("click", () => {
+  window.open(
+    "https://github.com/archxit/transport-enquiry-system-backend",
+    "_blank"
+  );
+});
+document.querySelector(".header-mail").addEventListener("click", () => {
+  window.open("https://github.com/archxit/movie-review-app-backend", "_blank");
+});
 
 const scrollTopBtn = document.getElementById("scrollTop");
 
