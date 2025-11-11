@@ -19,7 +19,7 @@
           <div class="h-name">archit's Portfolio</div>
           <div class="contact">
             <img src="mail.png" alt="Mail Icon" class="mail-icon" />
-            <span class="header-mail">architsrivastava1107@gmail.com</span></br> 
+            <span class="header-mail">architsrivastava1107@gmail.com</span></br>
             <img src="x.png" alt="twitter Icon" class="x-icon" />
             <span class="header-twitter">archxit</span>
             <img src="github.png" alt="github Icon" class="github-icon" />
@@ -99,13 +99,44 @@
         <div class="skill-card">
           <img src="css.png" alt="CSS Icon" class="skill-icon css-icon" />
           <div class="skill-name">CSS</div>
-        </div>  
+        </div>
       </div>
     </section>
     <hr />
     <section class="third-section" id="projects">
       <span class="text-grey">Here are some of my projects...</span>
       <h1>Projects</h1>
+      <div class="projects">
+        <h2>Ultrasonic Distance Measurement</h2>
+        <h3><a class="p1-link">hhttps://github.com/archxit/Ultrasonic-Distance-Measurement</a></h3>
+        <p>
+          Mini Project done as part of curriculum for ICT 3141 Embedded System Desgin Lab - Nov 2025; Ultrasonic
+          distance measurement system using LPC1768 and HC-SR04 sensor with 16x2 LCD display, LEDs, and buzzer alerts.
+
+          This system measures distance using an ultrasonic sensor and displays it on a 16x2 LCD.
+
+          Microcontroller: NXP LPC1768 (ARM Cortex-M3)
+          Peripherals: HC-SR04 Ultrasonic Sensor, 16x2 LCD, LEDs (P0.4–P0.11), Buzzer (P0.22)
+        </p>
+      </div>
+      <div class="projects">
+        <h2>3D Weather Globe</h2>
+        <h3><a class="p1-link">https://github.com/archxit/3d-weather-globe</a></h3>
+        <p>
+          Created as part of project work for ICT 3131 Flexi-Core : Web Technologies.
+          An interactive 3D Earth visualization built with Three.js and Globe.gl, showing real-time weather data for any
+          city worldwide.
+          The app dynamically updates day/night cycles, adds cloud layers, and shows stylish glowing city labels.
+
+          🌤️ Real-time weather data using OpenWeatherMap API
+          🌍 Interactive 3D globe with auto-rotation
+          ☀️ Dynamic day-night shading with city lights
+          ☁️ Subtle animated cloud layer
+          🔍 Floating search bar with live city lookup
+          🪩 Glassmorphic UI with a collapsible info panel
+
+        </p>
+      </div>
       <div class="projects">
         <h2>Transport Inquiry System</h2>
         <h3><a class="p1-link">https://github.com/archxit/transport-enquiry-system-backend</a></h3>
@@ -134,7 +165,9 @@
       <h1>Reccomendations</h1>
       <div class="recommendations-grid">
         <div class="recommendation-card">
-            "Archit is a very quick learner and quickly grasps key concepts of Web development. He has a great attitude & he is an excellent team player. He has a curious mind and asks the right questions. He takes initiative within a team and has potential to lead the team."
+          "Archit is a very quick learner and quickly grasps key concepts of Web development. He has a great attitude &
+          he is an excellent team player. He has a curious mind and asks the right questions. He takes initiative within
+          a team and has potential to lead the team."
         </div>
     </section>
     <hr />
@@ -142,7 +175,7 @@
       <h1>Leave a Recommendation</h1>
       <form id="rec-form">
         <div class="form-group">
-          <input type="text" placeholder="Name (Optional)" id="name"/>
+          <input type="text" placeholder="Name (Optional)" id="name" />
         </div>
         <div class="form-group">
           <input id="message" type="text" placeholder="Your Message" required />
@@ -152,7 +185,7 @@
     </section>
   </main>
 
-  <button class="scroll-top" id="scrollTop">↑</button>  
+  <button class="scroll-top" id="scrollTop">↑</button>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed("#element", {
@@ -164,4 +197,3 @@
 </body>
 
 </html>
-
